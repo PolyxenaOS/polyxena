@@ -1,0 +1,8 @@
+[package]
+name = "Polyxena"
+version = "0.1.0"
+authors = ["LAX <@0xlax>"]
+edition = "2021"
+
+[dependencies]
+bootloader = "0.9.8"
