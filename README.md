@@ -49,7 +49,7 @@ cargo run
 
 ### First look
 
-![alt text](https://github.com/PolyxenaOS/polyxena/)
+![first_look](https://github.com/PolyxenaOS/polyxena/blob/main/.github/assets/hello.png)
 
 
 [QEMU] and the [`bootimage`] tool need to be installed for this.
