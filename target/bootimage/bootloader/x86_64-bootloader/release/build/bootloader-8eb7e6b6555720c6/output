@@ -1,7 +1,0 @@
-cargo:rerun-if-changed=/home/laxman/polyxena/Cargo.toml
-cargo:rustc-link-search=native=/home/laxman/polyxena/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-8eb7e6b6555720c6/out
-cargo:rustc-link-lib=static=kernel_bin-polyxena
-cargo:rerun-if-env-changed=KERNEL
-cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=/home/laxman/polyxena/target/x86_64-polyxena/debug/polyxena
-cargo:rerun-if-changed=build.rs
