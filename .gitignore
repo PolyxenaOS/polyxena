@@ -4,3 +4,6 @@
 *.o
 *.save
 
+/target
+
+target
