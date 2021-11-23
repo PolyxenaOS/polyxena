@@ -11,6 +11,14 @@ You can build the project by running:
 cargo build
 ```
 
+incase or error, try :
+
+```
+cargo build -Zbuild-std --target "x86_64-polyxena.json"
+```
+
+
+
 To create a bootable disk image from the compiled kernel, you need to install the [`bootimage`] tool:
 
 [`bootimage`]: https://github.com/rust-osdev/bootimage
@@ -38,6 +46,11 @@ You can run the disk image in [QEMU] through:
 ```
 cargo run
 ```
+
+### First look
+
+![alt text](https://github.com/PolyxenaOS/polyxena/)
+
 
 [QEMU] and the [`bootimage`] tool need to be installed for this.
 
